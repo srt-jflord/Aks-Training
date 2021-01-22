@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService", "UserService\UserService.csproj", "{67A54A19-3484-4B2C-9E49-C8664E0A1108}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoService", "ToDoService\ToDoService.csproj", "{2ED71759-1813-4C1B-A748-676934A7958C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67A54A19-3484-4B2C-9E49-C8664E0A1108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67A54A19-3484-4B2C-9E49-C8664E0A1108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67A54A19-3484-4B2C-9E49-C8664E0A1108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67A54A19-3484-4B2C-9E49-C8664E0A1108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED71759-1813-4C1B-A748-676934A7958C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED71759-1813-4C1B-A748-676934A7958C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED71759-1813-4C1B-A748-676934A7958C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED71759-1813-4C1B-A748-676934A7958C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C231BE55-0D1A-413A-9274-03B2C073016C}
+	EndGlobalSection
+EndGlobal
