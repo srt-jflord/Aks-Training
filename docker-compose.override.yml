@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  userservice:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - DataAccess__ConnectionString=Server=?
+    ports:
+      - "80"
+
+  todoservice:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - DataAccess__ConnectionString=?
+      - DataAccess__UserServiceBaseUrl=http://userservice
+    ports:
+      - "80"

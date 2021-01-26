@@ -13,7 +13,6 @@ namespace ToDoService {
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureAppConfiguration((hostingContext, config) => {
-                    config.AddEnvironmentVariables(prefix: "App_");
                 })
                 .ConfigureWebHostDefaults(webBuilder => {
                     webBuilder.UseStartup<Startup>();

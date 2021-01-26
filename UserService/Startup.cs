@@ -41,12 +41,11 @@ namespace UserService {
             }
             else {
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
+                //app.UseHsts();
             }
 
             // app.UseHttpsRedirection();
             app.UseStaticFiles();
-            app.UseSpaStaticFiles();
 
             app.UseRouting();
 
@@ -60,13 +59,6 @@ namespace UserService {
                 });
             });
 
-            app.UseSpa(spa => {
-                spa.Options.SourcePath = "ClientApp";
-
-                if (env.IsDevelopment()) {
-                    spa.UseReactDevelopmentServer(npmScript: "start");
-                }
-            });
 
             dataContext.Database.Migrate();
         }
